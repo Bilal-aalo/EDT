@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDT 2021 | Modification</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="https://kit.fontawesome.com/88e49f59fc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <H1>Modification de l'outil</H1>
+            <h3>Éditeur de tarifs Excel</h3>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <p>La création et la mise en place d'un outil de calcul nécessite un peu de travail en amont. Par où commencer ? Ce qu'il faut faire et ne pas faire ? Tout est détaillé dans les vidéos ci-dessous. Pour ce que soit le plus simple possible je te conseille de lire les vidéos dans l'ordre.</p>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#lro">Les règles d'or</a></li>
+                <li><a href="#lpf">Les principales fonctions</a></li>
+                <li><a href="#rmc">Rappel sur les méthodes de calcul</a></li>
+                <li><a href="#pa">PLan d'action</a></li>
+                <li><a href="#tv">Tutoriels vidéo</a></li>
+            </ul>
+        </div>
+        <!-- <div class="content-img">
+            <div class="content-text">
+                <div class="question">
+                    <h3 id="blue">Pourquoi sur un site ?</h3>
+                </div>
+                <div class="reponse">
+                Il est plus facile de suivre les "tutoriels" dans un ordre défini, comme quand on lit des articles de blogs au scroll par exemple. Mais aussi est surtout, ce site est accessible depuis n'importe où, et tu auras besoin, d'après moi, de calme pour bosser sur des lignes de chiffres et de chiffres et de ... t'as compris.
+                </div>
+            </div>
+            <div class="content-text1">
+                <div class="question">
+                    <h3 id="blue">L'essentiel, juste le nécessaire !</h3>
+                </div>
+                <div class="reponse">
+                    <p>Le strict nécessaire pour la mise à jour de cet outil. On ne verra pas plus que le mimimum, mais si vous souhaitez des nouveautés sur ce fichier call me, en fonction de mes dispo et de ce qui est dans mes capacités je pourrais ajouter du contenu (gratuitement) 😏. Si cela ne me prend pas trop de temps.</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="fond-articles">
+            <div id="lro" class="articles">
+                <div class="article1">
+                    <h3>Les règles d'or <i class="fas fa-star"></i></h3>
+                </div>
+                <div class="complete-grid">
+                    <div class="grid">
+                        <div class="item">
+                            <div class="item-title">
+                                <h4>Modèle tableur toujours identique</h4>
+                            </div>
+                            <div class="item-text">
+                                <p>L'architecture des feuilles doit toujours être la même. Elle varie selon le fournisseur sur les catégories, ça c'est la forme. Le fond lui doit être le même pour tous.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-title">
+                                <h4>Dénomination toujours identique</h4>
+                            </div>
+                            <div class="item-text">
+                                <p>La dénomination des produits doit être identique partout. Sur une même feuille il y aura un tableau pour les prix, km etc. Il est important que sur ces différents tableaux de cette même feuille la dénomination soit toujours identique.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-title">
+                                <h4>Conversion en HT pour tous</h4>
+                            </div>
+                            <div class="item-text">
+                                <p>Le format est un problème chez les fournisseurs. Certaines grilles sont HT quand d'autres sont TTC. Il est important de convertir en HT toutes les grilles afin d'avoir un rendu homogène.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-title">
+                             <h4>Prix journalier pour tous</h4>
+                            </div>
+                            <div class="item-text">
+                                <p>De même que la problématique du HT/TTC il y a la problématique du tarif journalier ou non. Même résultat souhaité, convertion en tarif jour pour tous.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<div id="lpf" class="lesfonctions">
+    <h3>Les principales fonctions</h3>
+    <!-- <p>Les principales fonction que l'on va utiliser sont :  -->
+<li>Addition</li>
+<p>Rien de très complexe</p>
+<li>Multiplication</li>
+<p>Rien de très complexe</p>
+<li>Équiv</li>
+<p>La fonction EQUIV recherche un élément spécifique dans une plage de cellules, puis renvoie la position relative de l’élément dans la plage. </p>
+<li>Index</li>
+<p>La fonction Excel INDEX recherche une valeur dans un tableau en fonction de ses coordonnées.</p>
+<li>RechercheV</li>
+<p>La fonction Excel RECHERCHEV recherche une valeur dans la première colonne d'un tableau puis renvoie la valeur d'une cellule qui se situe sur la même ligne que la valeur recherchée.</p>
+</div>
+<div class="calcul">
+    <h3 id="rmc">Rappel sur les méthodes de calcul</h3>
+    <div class="global-cal">
+        <div class="cal">
+            <h4 id="title-calcul">Ajouter un pourcentage (commission)</h4>
+            <TABLE width="80%">
+                    <TR>
+                        <TH width="25%">Prix fournisseur HT</TH> 
+                        <TH width="25%">Commission </TH> 
+                        <TH width="25%">Calcul</TH> 
+                        <TH width="25%">Prix N&G HT</TH> 
+                    <TR>
+                        <TD >37.50€</TD> 
+                        <TD >20%</TD> 
+                        <TD >37.50€ * 1.20</TD> 
+                        <TD >45.00€</TD> 
+                    </TR>    
+                    </TR>
+                </TABLE> 
+        </div>
+        <div class="cal">
+            <h4 id="title-calcul">Déduire un pourcentage</h4>
+    <table width="80%">
+    <TR>
+        <TH width="25%">Prix initial</TH> 
+        <TH width="25%">Déduction</TH> 
+        <TH width="25%">Calcul</TH> 
+        <TH width="25%">Prix remisé</TH> 
+    <TR>
+        <TD >45.00€</TD> 
+        <TD >20%</TD> 
+        <TD >45.00 / 1.20</TD> 
+        <TD >37.50€</TD> 
+    </TR>    
+    </TR>
+    </table>
+        </div>
+        <div class="cal">
+            <h4 id="title-calcul">Connaître le pourcentage de remise</h4>
+            <table width="80%">
+                <TR>
+                    <TH width="25%">Prix initial</TH> 
+                    <TH width="25%">Prix remisé</TH> 
+                    <TH width="25%">Calcul</TH> 
+                    <TH width="auto">Résultat</TH> 
+                <TR>
+                    <TD >52.51€</TD> 
+                    <TD >39.65€</TD> 
+                    <TD >52.51 / 39.65</TD> 
+                    <TD >1.<s class="pourcentage">324</s>3
+                        <td>32%</td>
+                    </TD> 
+                </TR>    
+                </TR>
+            </table>  
+        </div>
+        <div class="cal">
+            <h4 id="title-calcul">Connaître le montant (€) d'un pourcentage</h4>
+            <table width="80%">
+                <TR>
+                    <TH width="25%">Prix</TH> 
+                    <TH width="25%">Pourcentage</TH> 
+                    <TH width="25%">Calcul</TH> 
+                    <TH width="auto">Résultat</TH> 
+                <TR>
+                    <TD >78.51€</TD> 
+                    <TD >37%</TD> 
+                    <TD >78.51 * 0.37</TD> 
+                    <TD >29.05€</TD> 
+                </TR>    
+                </TR>
+            </table>  
+        </div>
+    </div>
+</div>
+<div id="pa" class="plan">
+    <h3>PLAN D'ACTION</h3>
+    <p>Pour un travail optimal je te propose de segmenter en 4 étapes qui sont détaillées ci-dessous. Plus tu avanceras dans le processus plus ce sera facile, le plus prenant est la conversion des grilles, il faut faire attention à ne pas faire d'erreurs sur les chiffres. S'il s'agit de modifications mineures tu peux passer à l'étape assemblage directement.</p>
+    <div class="plan-detail">
+         <Strong>TRANSFORMATION</Strong><p> Dans un premier temps on transforme toutes les grilles fournisseurs sur le modèle unique Next and go. Le modèle de la grille vierge est téléchargeable un peu plus bas. Il s'agit là d'inclure les marges de l'entreprise. Un premier travail de vérification est nécessaire une fois la transformation faite.</p>
+         <Strong>ASSEMBLAGE</Strong><p> Dans un second temps il s'agira d'y inclure les différentes fonctions. Cette partie est détaillée dans les vidéos 2 et 3.</p>
+         <Strong>VÉRIFICATION</Strong><p>Une fois les fonctions intégrées, la partie 3 concernera la vérification des fonctions. Pour cela je te conseille de prendre une calculatrice et de faire en même temps que sur l'outil une vérification. L'idée est de voir si le résultat est le même.</p>
+         <Strong>FINITION</Strong><p>La dernière étape, une fois les vérifications faites, consiste à mettre un mot de passe sur les grilles, accessoirement masquer ce qui peut l'être, faire un peu de mise en forme et corriger les derniers détails.</p>
+        </div>
+        <div class="gif">
+            <h5>Mon conseil !</h5>
+            <p>Si tu as un doute ou ne comprends pas ce que tu fais tu peux utiliser une version déjà existante et analyser le contenu des fonctions. </p>
+            <div class="monconseil">
+                <video src="/VIDEO/fonction.mp4"  loop autoplay width="auto"></video>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fond-div">
+    <div class="monavis">
+        <h3>S'organiser, gagner du temps </h3>
+        <div class="textmonav">
+            <div class="textmonavis">
+                <p>Dans le cas de figure où tu dois intégrer un nouveau fournisseur ou si changement intégral des prix d'une grille l'étape transformation est nécessaire. Pour cela j'ai crée un modèle unique qui est une base de travail solide. Ce modèle est utilisé sur toutes les versions du fichier que vous utilisez actuellement. Tu peux télécharger à droite.</p>
+                <a id="download" href="/DOC/Modèle grille.xlsx">Download</a>
+            </div>
+            <div class="margin"></div>
+            <p>Une fois la transformation grille fournisseur <i class="fas fa-exchange-alt"></i> grille Next and go faite tu peux considérer avoir fait 80% du boulot. À la condition d'avoir bien effectué la transformation, et ça passe d'abord par le prix de la location jour en prenant la marge commerciale, mais aussi les km, la supercover, les options additionnelles. En résumé il faut penser à prendre la marge sur toutes les lignes en €. Rapproche toi quand même de la direction ou du service comptabilité pour confirmer les lignes sur lesquelles vous margez.</p>
+            <div class="margin"></div>
+            <p> <strong>Très important !</strong> Une fois le fichier terminé et les vérifications faites il faut impérativement verrouiller ton travail. Sans cela la moindre faute de frappe sur ton clavier risque de mettre à mal tout ce que tu as fait. Et devoir tout revérifier, c'est du temps. Alors pense à ajouter un mot de passe sur toutes les feuilles.</p>
+        </div>
+    </div>
+</div>
+<div id="tv" class="fond-articles2">
+    <div  class="videos">
+        <div class="partie">
+            <div class="t-v">
+                <div class="textual">
+                    <h4 id="ftitre">LA FEUILLE DES PRIX</h4>
+                    <div class="title-textual">
+                        <p>L'une des règles importantes dans la construction du fichier est de toujours avoir la même  <strong>dénomination</strong> sur les catégories d'un tableau à un autre. Dans une feuille Hertz par exemple, il y a plusieurs tableaux, un pour les tarifs, un autres pour les km, un autre pour les franchises. Si dans les 2 premiers tableaux sur 3 j'ai une dénomination "G4 porte latérale" et que sur la 3ème j'ai une erreur "G4 po<span>s</span>te latérale" je vais avoir une erreur et par conséquent la recherche ne fonctionnera pas, je n'aurais donc pas le résultat sur les franchises.</p>
+                    </div>
+                </div>
+                <div class="fprogress">
+                    <h5>Progression 30%</h5>
+                    <progress value="30" max="100">30 %</progress>
+                </div>
+            </div>
+            <video src="/VIDEO/La feuille des prix.mp4" width="800PX" height="500px" controls></video>
+        </div>
+        <div class="partie">
+            <div class="t-v">
+                <div class="textual">
+                    <h4 id="ftitre"> LES FONCTIONS</h4>
+                </div>
+                <div class="title-textual">
+                    <p>Sur cette partie, les fonctions <strong id="teal">INDEX</strong> et <strong id="teal">EQUIV</strong>. C'est la partie la plus simple et la plus rapide du processus. </p>
+                </div>
+                <div class="fprogress">
+                    <h5>Progression 60%</h5>
+                    <progress value="60" max="100">60 %</progress>
+                </div>
+            </div>
+            <video src="/VIDEO/fonctions equiv et index.mp4" width="800PX" height="500px" controls></video>
+        </div>
+        <div class="partie">
+            <div class="t-v">
+                <div class="textual">
+                    <h4 id="ftitre">LES FONCTIONS - SUITE ET FIN</h4>
+                </div>
+                <div class="title-textual">
+                <p>Sur cette partie les fonctions <strong id="teal">ADDITION</strong> et <strong id="teal">MULTIPLICATION</strong>. La seule subtilité est qu'il faut bien penser à multiplier le rachat de franchise par le nombre de jour. J'ai fait l'erreur de ne pas intégrer la somme totale dans la sélection "Détail". Ce que tu peux faire si tu veux éviter d'avoir une multiplication c'est : ajouter une case " Total Franchise durée" sous "Total HT km supp". À l'image de Q8 ou Q12 tu n'auras qu'à faire une addition, cela corrigera la petite problématique. Toutes les cellules où il y a des € doivent être dans ton calcul global.</p>
+            </div>
+                <div class="fprogress">
+                    <h5>Progression 90%</h5>
+                    <progress value="90" max="100">90 %</progress> 
+                </div>
+            </div>
+            <video src="/VIDEO/Les focntions fin.mp4" width="800PX" height="500px" controls></video>
+        </div>
+        <div class="partie1">
+            <div class="t-v1">
+                    <div class="textual1">
+                        <div class="title-textual">
+                            <h4 id="ftitre">MISE EN PAGE </h4>
+                        </div>
+                        <p>Ne reste plus qu'à faire un peu de mise en forme afin de rendre l'outil le plus esthétique possible, bien que sur Excel ce soit très limité il y a quand même possibilité de faire des petites choses. Ensuite et dans un même temps bien verrouiller toutes les pages. Surtout ne pas perdre les mots de passe. <br> Et voilà ! Le job est fait !</p>
+                        <img src="/IMG/2021-04-28_02h59_54.png" width="150px" alt="">
+                    </div>
+                    <div class="fprogress">
+                        <h5>Progression 100%</h5>
+                        <progress value="100" max="100">100 %</progress>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Fin <br></p>
+            <div class="conception">
+                <p id="conception">Conception - Bilal B.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
