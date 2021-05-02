@@ -233,12 +233,12 @@ strong {
 
 .fond-articles {
   max-width: 70vw;
-  min-height: 700px;
+  /* min-height: 700px; */
   margin: auto;
 }
 
 .lesfonctions {
-  height: 400px;
+  height: 350px;
   width: 100%;
   margin: auto;
 }
@@ -253,11 +253,21 @@ strong {
   margin: 10px 0px 0px 0px;
 }
 
+.fondecran {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+  background: url(/IMG/Mar-Business_6.jpg) center center/cover no-repeat;
+  background-size: 600px;
+  background-position: 98% bottom;
+}
+
 .calcul {
   min-height: 400px;
-  width: 100%;
+  width: 70vw;
   margin: auto;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* margin-top: 100px; */
 }
 
@@ -276,6 +286,12 @@ strong {
 
 #title-calcul {
   margin-bottom: 10px;
+}
+
+.fond2 {
+  max-width: 70vw;
+  min-height: 700px;
+  margin: auto;
 }
 
 .plan {
@@ -447,8 +463,8 @@ strong {
 
 .grid {
   display: grid;
-  grid-template-columns: 16em 16em 16em 16em;
-  grid-template-rows: 16em;
+  grid-template-columns: 14em 14em 14em 14em;
+  grid-template-rows: 14em;
   column-gap: 3rem;
   margin-bottom: 5rem;
 }
@@ -472,6 +488,7 @@ strong {
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 .item-text {
@@ -481,10 +498,11 @@ strong {
   align-items: center;
   text-align: center;
   padding: 1rem;
-  font-size: 0.95em;
-  line-height: 1.4em;
+  font-size: 0.8em;
+  line-height: 1.6em;
   text-transform: none;
   color: white;
+  letter-spacing: 0.1em;
 }
 
 .fond-articles2 {
