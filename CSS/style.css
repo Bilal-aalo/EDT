@@ -26,19 +26,24 @@ a {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 1.5rem;
   color: rgb(54, 54, 54);
   font-weight: 400;
   text-transform: uppercase;
 }
 
 h4 {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   color: var(--secondcolor);
+  font-size: 0.9rem;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 video {
-  max-width: max-content;
+  max-width: 100%;
 }
 a {
   color: white;
@@ -65,7 +70,7 @@ th {
   width: auto;
 }
 #ftitre {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: rgb(54, 54, 54);
 }
 
@@ -123,7 +128,7 @@ strong {
 }
 
 .header h3 {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .content {
@@ -166,7 +171,7 @@ strong {
 }
 
 .question h3 {
-  font-size: 1.4em;
+  /* font-size: 1.4em; */
   /* font-family: var(--policetwo); */
   color: #0a72e2;
   margin-bottom: 0.5em;
@@ -444,7 +449,6 @@ strong {
   height: 70px;
   justify-content: center;
   align-content: center;
-  font-size: 22px;
   font-weight: 300;
 }
 
@@ -488,7 +492,7 @@ strong {
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  font-size: 0.9em;
+  /* font-size: 0.9em; */
 }
 
 .item-text {
@@ -498,11 +502,14 @@ strong {
   align-items: center;
   text-align: center;
   padding: 1rem;
-  font-size: 0.8em;
-  line-height: 1.6em;
+  line-height: 1.1rem;
   text-transform: none;
   color: white;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
+}
+
+.item-text p {
+  font-size: 0.8rem;
 }
 
 .fond-articles2 {
@@ -513,8 +520,9 @@ strong {
 
 .partie {
   display: flex;
+  height: 30rem;
   flex-direction: row;
-  margin-bottom: 80px;
+  margin-bottom: 3rem;
   justify-content: space-between;
   align-items: stretch;
 }
@@ -528,26 +536,33 @@ strong {
 
 .textual {
   display: flex;
-  width: 350px;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
 }
 
+.video {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+
 .textual h4,
 .textual p {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .title-textual {
   line-height: 1.8em;
-  font-size: 14px;
 }
 
 .partie1 {
   display: flex;
+  height: 25rem;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
   justify-content: center;
   align-items: stretch;
 }
@@ -558,9 +573,7 @@ strong {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-top: 20px;
-  height: 350px;
-  width: 800px;
+  width: 60%;
   margin: auto;
 }
 
@@ -575,23 +588,19 @@ strong {
 .textual1 h4,
 .textual1 p {
   line-height: 1.9em;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .textual1 img {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  height: 150px;
-  margin-top: 80px;
+  height: 9rem;
   background: linear-gradient(#0ab6eb, #0c09d6);
-  /* background: #000000; */
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  font-weight: 500;
   color: white;
 }

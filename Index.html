@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EDT 2021 | Modification</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" media="only screen and (max-width:500px)" href="/CSS/style.mobile.css">
     <script src="https://kit.fontawesome.com/88e49f59fc.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -217,13 +218,15 @@
                     <div class="title-textual">
                         <p>L'une des règles importantes dans la construction du fichier est de toujours avoir la même  <strong>dénomination</strong> sur les catégories d'un tableau à un autre. Dans une feuille Hertz par exemple, il y a plusieurs tableaux, un pour les tarifs, un autres pour les km, un autre pour les franchises. Si dans les 2 premiers tableaux sur 3 j'ai une dénomination "G4 porte latérale" et que sur la 3ème j'ai une erreur "G4 po<span>s</span>te latérale" je vais avoir une erreur et par conséquent la recherche ne fonctionnera pas, je n'aurais donc pas le résultat sur les franchises.</p>
                     </div>
-                </div>
-                <div class="fprogress">
-                    <h5>Progression 30%</h5>
-                    <progress value="30" max="100">30 %</progress>
+                    <div class="fprogress">
+                        <h5>Progression 30%</h5>
+                        <progress value="30" max="100">30 %</progress>
+                    </div>
                 </div>
             </div>
-            <video src="/VIDEO/La feuille des prix.mp4" width="700PX" height="auto" controls></video>
+            <div class="video">
+                <video src="/VIDEO/La feuille des prix.mp4" controls></video>
+            </div>
         </div>
         <div class="partie">
             <div class="t-v">
@@ -238,7 +241,9 @@
                     <progress value="60" max="100">60 %</progress>
                 </div>
             </div>
-            <video src="/VIDEO/fonctions equiv et index.mp4" width="700PX" height="auto" controls></video>
+            <div class="video">
+                <video src="/VIDEO/fonctions equiv et index.mp4" controls></video>
+            </div>
         </div>
         <div class="partie">
             <div class="t-v">
@@ -248,12 +253,14 @@
                 <div class="title-textual">
                 <p>Sur cette partie les fonctions <strong id="teal">ADDITION</strong> et <strong id="teal">MULTIPLICATION</strong>. La seule subtilité est qu'il faut bien penser à multiplier le rachat de franchise par le nombre de jour. J'ai fait l'erreur de ne pas intégrer la somme totale dans la sélection "Détail". Ce que tu peux faire si tu veux éviter d'avoir une multiplication c'est : ajouter une case " Total Franchise durée" sous "Total HT km supp". À l'image de Q8 ou Q12 tu n'auras qu'à faire une addition, cela corrigera la petite problématique. Toutes les cellules où il y a des € doivent être dans ton calcul global.</p>
             </div>
-                <div class="fprogress">
-                    <h5>Progression 90%</h5>
-                    <progress value="90" max="100">90 %</progress> 
-                </div>
+            <div class="fprogress">
+                <h5>Progression 90%</h5>
+                <progress value="90" max="100">90 %</progress> 
             </div>
-            <video src="/VIDEO/Les focntions fin.mp4" width="700PX" height="auto" controls></video>
+            </div>
+            <div class="video">
+                <video src="/VIDEO/Les focntions fin.mp4" controls></video>
+            </div>
         </div>
         <div class="partie1">
             <div class="t-v1">
@@ -275,7 +282,7 @@
     </main>
     <footer>
         <div class="footer">
-            <p>Fin <br></p>
+            <h2>Fin <br></h2>
             <div class="conception">
             </div>
         </div>
